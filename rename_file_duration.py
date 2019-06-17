@@ -1,3 +1,9 @@
+###
+RENAMES ALL FILES IN A DIRECTORY (MY_PATH)
+to the form "filename_XhXmXs"
+so it includes the duration of the media file
+###
+
 import subprocess
 from os import listdir
 from os.path import isfile, join
