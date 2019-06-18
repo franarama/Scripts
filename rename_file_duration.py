@@ -1,7 +1,8 @@
 """
-RENAMES ALL FILES IN A DIRECTORY (MY_PATH)
+Renames all files in a given folder (MY_PATH)
 to the form "filename_XhXmXs"
 so it includes the duration of the media file
+(h = hours, m = minutes, s = seconds)
 """
 
 import subprocess
